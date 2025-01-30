@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "publisher": "mshoaibkalim",
   "main": "./extension.js",
+  "image":"./image/realtime.jpeg",
   "repository": {
     "type": "git",
     "url": "https://github.com/MuhammadShoaibKalim/live-collaboration-tool.git"
