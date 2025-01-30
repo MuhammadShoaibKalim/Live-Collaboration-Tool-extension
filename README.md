@@ -20,8 +20,7 @@ Collaborate in real-time with your team directly in VS Code! This extension enab
 3. Search for **Live Collaboration Tool**.
 4. Click **Install**.
 
-## Screenshot
-![Screenshot](images/screenshot.png)
+
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute, please:
