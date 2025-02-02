@@ -1,14 +1,14 @@
 {
   "name": "live-collaboration-tool",
   "displayName": "Live Collaboration Tool",
-  "description": " Collaborate in real-time with your team directly in VS Code! This extension enables multiple users to edit the same file simultaneously, track each other’s cursors, and chat seamlessly—all within the editor. Perfect for pair programming, code reviews, and remote teamwork.",
-  "version": "0.0.5",
+  "description": "Collaborate in real-time with your team directly in VS Code! This extension enables multiple users to edit the same file simultaneously, track each other’s cursors, and chat seamlessly—all within the editor. Perfect for pair programming, code reviews, and remote teamwork.",
+  "version": "0.0.6",
   "publisher": "mshoaibkalim",
   "main": "./extension.js",
-  "image":"live-collaboration.png",
+  "image": "liveCollaboration.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MuhammadShoaibKalim/live-collaboration-tool.git"
+    "url": "https://github.com/MuhammadShoaibKalim/Live-Collaboration-Tool-extension"
   },
   "engines": {
     "vscode": "^1.96.0"
@@ -16,11 +16,16 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onCommand:live-collaboration-tool.helloWorld"
+  ],
   "contributes": {
-   "activationEvents": [
-  "onCommand:live-collaboration-tool.helloWorld"
-]
+    "commands": [
+      {
+        "command": "live-collaboration-tool.helloWorld",
+        "title": "Hello World"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
